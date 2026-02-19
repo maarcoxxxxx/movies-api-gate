@@ -17,7 +17,7 @@ import { MoviesModule } from './movies/movies.module';
       password: process.env.DB_PASS,
       database: process.env.DB_NAME,
       autoLoadEntities: true,
-      synchronize: false,
+      synchronize: true,
     }),
 
     MoviesModule,
